@@ -1,5 +1,20 @@
 # Exploring-ESP-NOW
 ## ESP MAC Addresses
+Code used to get ESP MAC Address:
+```
+#include "WiFi.h"
+ 
+void setup(){
+  Serial.begin(115200);
+  WiFi.mode(WIFI_MODE_STA);
+  Serial.println(WiFi.macAddress());
+}
+ 
+void loop(){
+
+}
+```
+
 Receiver/User Board: `3C:61:05:12:94:18`
 
 Sender/Sensor Board: `AC:67:B2:3C:91:CC`
