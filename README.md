@@ -1,4 +1,8 @@
 # Exploring-ESP-NOW
+## ESP MAC Addresses
+Receiver/User Board: `3C:61:05:12:94:18`
+
+Sender/Sensor Board: `AC:67:B2:3C:91:CC`
 ## References
 1. https://learn.circuit.rocks/esp-now-the-fastest-esp8266-protocol
 2. https://randomnerdtutorials.com/esp-now-esp32-arduino-ide/
