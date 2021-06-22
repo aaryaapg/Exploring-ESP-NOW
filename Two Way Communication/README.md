@@ -1,5 +1,5 @@
 # ESP-NOW Two-way Communication
-We have two ESP32 boards. One board is connected to a push button (to pin 22 of ESP32) & the other board is connected to DHT11 (pin 32). Each board needs to know the other board's MAC address in order to communicate.
+We have two ESP32 boards. One board is connected to a push button (to pin 22 of ESP32) & the other board is connected to DHT11 (pin 32). Each board needs to know the other board's MAC address in order to communicate. Refer: https://randomnerdtutorials.com/esp-now-two-way-communication-esp32/
 
 ## Board 1: Button Board
 * Push button is connected tp pin 22
