@@ -9,3 +9,6 @@ We have two ESP32 boards. One board is connected to a push button (to pin 22 of 
 * DHT 11 Connected to pin 32 of ESP32
 * This board receives the button state from the button board
 * When the button is pressed on the button board, it sends temperature and humidity data to it via ESP-NOW
+
+## Serial Monitor
+![2Way DHT11 ESP-NOW](https://user-images.githubusercontent.com/61982410/122963752-314a9200-d3a4-11eb-934a-1719c2177c1f.jpg)
