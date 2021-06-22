@@ -4,7 +4,7 @@
 #include <WiFi.h>
 
 /* ______________________________________Declarations and Variables______________________________________ */
-typedef struct struct_message { // Structure example to send data. Must match the sender structure
+typedef struct struct_message { // Structure example to receive data. Must match the sender structure
   int h;
   int tc;
   float tf;
